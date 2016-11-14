@@ -4,7 +4,7 @@ import java.util.Scanner;
  * Date: 2016/11/14
  * Author: 105021062 鄭雅韵
  */
-public class ex01 {
+public class ex2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,7 +15,8 @@ public class ex01 {
 			data[i]=scn.nextInt();
 		}
 		
-		System.out.println(var(n,data));
+		System.out.println();
+		System.out.println(std(var(n,data)));
 
 	}
 
@@ -34,8 +35,10 @@ public class ex01 {
 		
 		
 		return sum;
-
 		
+	}
+	public static double std(double s){
+		return Math.sqrt(s);
 	}
 
 }
